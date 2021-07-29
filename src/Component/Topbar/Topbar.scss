@@ -1,0 +1,26 @@
+#topbar {
+	height: 84px;
+	-webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.12);
+	-moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.12);
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.12);
+	.container {
+		.navbar-nav {
+			a.nav-link {
+				font-size: $base-unit;
+			    font-weight: 400;
+			    font-size: $base-unit;
+			    letter-spacing: 1px;
+			    font-style: normal;
+		        line-height: 1;
+    			-webkit-font-smoothing: subpixel-antialiased;
+    			text-transform: uppercase;
+    			cursor: pointer;
+    			margin: 0 $base-unit;
+				&.active {
+					color: $primary-color;
+					border-bottom: 1px solid $primary-color;
+				}
+			}
+		}
+	}
+}
